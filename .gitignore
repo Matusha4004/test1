@@ -1,0 +1,96 @@
+# Build output
+bin/
+obj/
+Debug/
+Release/
+
+# Visual Studio
+.vs/
+*.vcxproj.user
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Rider
+.idea/
+*.sln.iml
+
+# Visual Studio Code
+.vscode/
+
+# NuGet
+*.nupkg
+# The packages folder can be ignored because of Package Restore
+**/packages/*
+!**/packages/repositories.config
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Entity Framework
+*.dbmdl
+
+# Publish output
+publish/
+*.Publish.xml
+
+# IIS Express
+/.vs/**/applicationhost.config
+/.vs/**/iissettings.json
+
+# User-specific files
+*.pidb
+*.svclog
+*.suo
+*.user
+*.userprefs
+
+# Mono
+*.pidb
+*.userprefs
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used by GitHub for Windows
+$RECYCLE.BIN/
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# Resharper
+_ReSharper*/
+*.DotSettings.user
+
+# DotCover
+*.dotCover
+
+# Backup & report files
+*_i.c
+*_p.c
+*_h.h
+*.ilk
+*.meta
+*.obj
+*.iobj
+*.pch
+*.pdb
+*.ipdb
+*.pgc
+*.pgd
+*.log
+*.dmp
+
+# VS Code directories
+.history/
+
+# Others
+*.cache
+*.log
+.DS_Store
